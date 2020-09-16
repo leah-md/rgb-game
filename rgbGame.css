@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #232323;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  background-color: #6e736f;
+  text-align: center;
+  color: white;
+  padding: 20px 0;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+#rgbDisplay {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.gameControls {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+
+#sqrContainer {
+  max-width: 550px;
+  margin: 10px auto;
+}
+
+.square {
+  width: 30%;
+  float: left;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: background-color 0.5s;
+  -webkit-transition: background-color 0.5s;
+  -moz-transition: background-color 0.5s;
+}
+
+button {
+  border: none;
+  background-color: white;
+  height: 100%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: inherit;
+  color: steelblue;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+
+.spacer {
+  display: inline-block;
+  width: 17%;
+}
+
+.tutContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(4, 4, 29, .5)
+}
+
+.tutorial {
+  width: 50%;
+  background-color: rgba(4, 4, 29, .92);
+  color: whitesmoke;
+  padding: 20px;
+}
+
+.tutHead{
+  display: flex;
+  justify-content: space-between;
+}
+
+.tutSquares {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tutSqr {
+  display: inline-block;
+  width: 20%;
+  padding-bottom: 20%;
+  margin: 5px;
+  background-color: rgb(0, 255, 0);
+}
+
+.tutSqr:first-of-type {
+  background-color: rgb(255, 0, 0);
+}
+
+.tutSqr:last-of-type {
+  background-color: rgb(0, 0, 255);
+}
+
+
+
+

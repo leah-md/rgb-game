@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB Game</title>
+  <link rel="stylesheet" href="rgbGame.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="tutContainer">
+    <div class="tutorial">
+      <div class="tutHead">
+        <h2>Welcome to the RGB Game!</h2>
+        <button class="closeTut">X</button>
+      </div>
+      <br>
+      <div class="description">
+        <p>
+          Did you know that you can produce any shade of any color by mixing different 
+          amounts of red, green, and blue together? In fact, that’s how web designers 
+          and digital artists tell computers which colors to display. An RGB code is a 
+          sequence of three numbers, ranging from 0 to 255, which represent the amounts 
+          of red, green, and blue present in a color.
+          <br><br>
+          Check out the three colors below. Which do you think is represented 
+          by the code <strong>RGB(0, 255, 0)</strong>?
+          <br><br> 
+        </p>
+        <div class="tutSquares">
+          <p class="tutPrompt">Click on a color!</p>
+          <div class="tutSqr"></div>
+          <div class="tutSqr"></div>
+          <div class="tutSqr"></div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <h1 class="heading">
+    The RGB Guessing Game
+    <br>
+    <span id="rgbDisplay"></span>
+  </h1>
+
+
+  <div class="gameControls">
+    <button id="reset">New Colors</button>
+    <span class="spacer"></span>
+    <button class="gameMode">Easy</button>
+    <button class="gameMode selected">Normal</button>
+    <button class="gameMode">Hard</button>
+  </div>
+
+  <div id="sqrContainer">
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+    <div class="square"></div>
+  </div>
+
+<script src="rgbGame.js"></script>
+</body>
+</html>
